@@ -29,12 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tr.appendChild(editTd)
         table.appendChild(tr)
 
-        btn.addEventListener('click', (e)=>{
-            e.target.dog
-            // let pid = e.target.parentNode.parentNode
-            // let p = id.dog.id
-            // if(parseInt(id) === dog.id){
-            //     editForm.setAttribute("id", `${dog.id}`)
+        btn.addEventListener('click', ()=>{
                 form["name"].value = dog.name
                 form["breed"].value = dog.breed
                 form["sex"].value = dog.sex
